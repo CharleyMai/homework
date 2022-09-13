@@ -1,0 +1,91 @@
+---
+title: "homework1"
+output: html_document
+date: "2022-09-13"
+---
+
+|               **Classes**               |
+|:---------------------------------------:|
+|   *Intro to Data Analytics* 3 Credits   |
+| *Computation and programming* 3 Credits |
+|        *Pre-Calculus* 3 Credits         |
+|   *Python and data science* 3 Credits   |
+
+![](ssgit.jpg)
+
+# Things I've Learned
+
+## Data analytics
+
+-   Markdown
+-   Github
+-   R
+-   R Studio
+
+## Pre-Calculus
+
+-   LaTex
+-   Algebra
+-   Math
+-   Pre-Calculus
+
+## Python for Data Analytics
+
+-   Python
+-   Programming
+-   Coding
+-   Arithmetic
+
+## Introduction to Programming and Computation
+
+-   C
+-   VS Code
+-   Programming
+-   Integers
+
+```{r}
+my_name<-"Charley Mai"
+my_name
+```
+
+```{r}
+name_length <- nchar(my_name)
+name_length
+
+```
+
+$e^\pi = 23.1406926328 \\\pi^e =22.4591577184$ $e^\pi>\pi^e$
+
+```{r}
+
+v <-length(31:86)
+vector <- c(v)
+vector
+```
+
+```{r}
+sequence <- seq(-5,10, .5)
+sequence
+```
+```{r}
+feet<- readline(prompt="Enter Feet ")
+inches<- readline(prompt="Enter inches ")
+imperial_to_metric <- c(feet, inches)
+Lf <- strtoi(feet) * 0.3048
+Li<- strtoi(inches)*0.0254
+Lm <- Li + Lf
+
+height_in_meters<- Lm
+height_in_meters
+```
+```{r}
+round(3.1415, 3)
+factorial(12)
+mean(1:17)
+```
+```{r}
+die <- sample(6, replace= FALSE, prob=NULL)
+die[1]
+
+```
+
